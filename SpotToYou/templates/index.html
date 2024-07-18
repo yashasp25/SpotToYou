@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify to YouTube Playlist</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify to YouTube Playlist</h1>
+        <button id="login-btn">Login with Spotify</button>
+        <button id="logout-btn">Logout</button>
+        <button id="create-playlist-btn">Create YouTube Playlist</button>
+        <p id="status"></p>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
